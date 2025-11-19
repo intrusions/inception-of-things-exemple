@@ -27,7 +27,7 @@ kind: Service
 metadata:
   name: svc-wil
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: wil
   ports:
